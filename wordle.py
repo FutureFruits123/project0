@@ -1,6 +1,6 @@
 import random
 
-possibleWords = ["water", "apple", "fruit", "house", "world", "night", "earth", "light", "music", "space", "heart", "class", "brass", "power", "green", "river", "field", "plant", "floor", "plane", "child", "human", "party", "blood", "shape", "ocean", "grass", "glass", "women", "level", "stone"]
+possibleWords = ["water", "apple", "chair", "flame", "blaze", "clock", "piece", "fruit", "sword", "rifle", "house", "crain", "world", "range", "night", "heavy", "earth", "light", "obese", "music", "space", "heart", "class", "brass", "power", "green", "river", "field", "plant", "floor", "plane", "grain", "child", "human", "party", "blood", "shape", "ocean", "grass", "glass", "women", "level", "stone"]
 word = possibleWords[random.randrange(0, len(possibleWords))]
 
 def makeAGuess(userGuess):
