@@ -17,7 +17,6 @@ def playGame(wordleComplete):
   while wordleComplete == False:
     randomizeWord()
     print("Let's play Wordle! Guess the word in 6 tries. Each guess must be a valid 5-letter word. For each guess, a hint will tell you how many letters you've guessed correctly. A G represents a letter in the word and in the correct spot.. A Y represents a letter in the word but in the wrong spot. A - represents a letter not in the word in any spot. Guess below!")
-    print(word)
     def makeAGuess(userGuess):
       hint = ""
 
